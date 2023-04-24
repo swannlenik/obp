@@ -1,0 +1,82 @@
+.creneau {
+        display: inline-block;
+        float: right;
+        padding: 5px 10px;
+        margin: 0;
+        font-size: 12px;
+        line-height: 1.6666;
+        width: 100%;
+}
+.rtl .creneau {
+        float: left;
+}
+.block-editor-page .creneau {
+        display: none;
+}
+@media screen and (max-width: 782px) {
+        .creneau,
+        .rtl .creneau {
+                display: inline-block;
+                float: none;
+                padding-left: 0;
+                padding-right: 0;
+        }
+}
+form.creneau-form {
+    display: inline-block;
+    float: left;
+}
+
+.prochain-creneau {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.creer-creneau__table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.creer_creneau__table--line {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.creer_creneau__table--header-cell,
+.creer_creneau__table--body-cell {
+    border: 1px solid #000000;
+}
+
+.creer_creneau__table--line:nth-child(odd) {
+    background-color: #DDDDDD;
+}
+
+.creer-creneau__div {
+    width: 100%;
+    max-width: 100%;
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.prochain-creneau__element {
+    width: 33%;
+    text-align: center;
+}
+
+.creer-creneau__h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.cell--text-centered {
+    text-align: center;
+}
+
+.cell--text-alert {
+    font-weight: bold;
+    color: #ff424d;
+}

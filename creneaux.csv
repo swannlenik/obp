@@ -1,0 +1,7 @@
+"id";"jour_creneau";"id_jour";"heure_debut";"heure_fin"
+1;"Mardi";2;"17:00";"21:00"
+2;"Mercredi";3;"13:30";"15:30"
+3;"Jeudi";4;"17:00";"19:00"
+4;"Vendredi";5;"17:30";"21:00"
+5;"Samedi";6;"9:30";"13:00"
+6;"Dimanche";7;"9:30";"13:00"
